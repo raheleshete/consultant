@@ -1,0 +1,183 @@
+.banner-shop{
+	padding: 95px 0 170px;
+    margin-top: 60px;
+    text-align: center;
+}
+.banner-shop.banner-text-white{
+	color: #fff;
+}
+.banner-shop__title{
+	position: relative;
+}
+.banner-shop__description{
+	position: relative;
+}
+
+.consultant-prod-list-image{
+	height: 360px;
+}
+
+/* For Detail */
+.consultant_product_detail{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+
+.consultant_product_detail .product-heading::after{
+	content: '';
+	clear: both;
+	width: 100%;
+	display: block;
+	height: 0;
+}
+
+/* product title */
+.consultant_product_detail .product-title,
+.consultant_product_detail .product-price .price{
+	font-family: "Lato", sans-serif;
+	font-size: 24px;
+	color: #000;
+	letter-spacing: 1px;
+}
+
+.consultant_product_detail .product-title{
+	float: left;
+	max-width: 90%;
+}
+
+/* description */
+.consultant_product_detail .product-desc{
+	margin: 35px 0 40px;
+	padding: 25px 0;
+	border-width: 1px 0 1px;
+	border-style: solid;
+	border-color: #d4d4d4;
+	font-family: "Lato Light";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+}
+ 
+.consultant_product_detail .product-price .woocommerce-Price-amount{
+	color: #000;
+}
+
+/* product navigation */
+.consultant_product_detail .product-navigation{
+	float: right;
+	margin-top: 20px;
+	width: 10%; 
+}
+.consultant_product_detail .product-navigation .left-arrow,
+.consultant_product_detail .product-navigation .right-arrow{
+	width: 22px;
+	height: 22px;
+	background-color: #dadada;
+	text-align: center;
+}
+.consultant_product_detail .product-navigation .left-arrow{
+	display: inline-block;
+	color: #000;
+}
+.consultant_product_detail .product-navigation .right-arrow{
+	display: inline-block;
+	background-color: #0094cd;
+	color: #fff;
+}
+.consultant_product_detail .product-navigation .left-arrow::before{
+	display: inline-block;
+	vertical-align: middle;
+}
+.consultant_product_detail .product-navigation .fa:before{
+	vertical-align: middle;
+}
+
+/* add to cart button */
+.consultant_product_detail .single_add_to_cart_button{
+	padding: 17px 38px;
+    text-transform: uppercase;
+    background-color: #0094cd;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+}
+
+
+/* For quantity */
+.woocommerce .consultant_product_detail  div.product form.cart .quantity {
+  position: relative;
+  margin-right: 30px;
+  padding: 5px 55px;
+  border: 1px solid #ccc;
+  background: #fff;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  font-family: "Montserrat Medium";
+  font-size: 16px;
+  border: 0;
+  background: none;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: none;
+  border: 0;
+}
+
+.quantity-button {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: normal;
+  height: 10px; 
+  top: 10px; 
+  cursor: pointer;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+   left: 25px; 
+}
+.quantity-button.quantity-up {
+  position: absolute;
+  right: 25px;
+}
+
+.consultant_product_detail  .swiper-container .pagination{
+	display: none;
+}
+
+.consultant_product_detail  .swiper-slide .popup-image{
+	display: block;
+	height: 465px;
+}
+
+.consultant_product_detail .related.products {
+	clear: both;
+	font-family: "Ebrima", sans-serif;
+}
+

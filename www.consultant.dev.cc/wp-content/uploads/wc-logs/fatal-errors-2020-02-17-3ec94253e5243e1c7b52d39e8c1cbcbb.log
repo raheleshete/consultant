@@ -1,0 +1,10 @@
+2020-02-17T17:11:58+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-content\themes\consultantpro\inc\importer\index.php:784
+Stack trace:
+#0 C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-content\themes\consultantpro\inc\importer\index.php(558): consultant_Setup->_content_install_widgets()
+#1 C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-includes\class-wp-hook.php(288): consultant_Setup->ajax_content('')
+#2 C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-admin\admin-ajax.php(175): do_action('wp_ajax_envato_...')
+#5 {main}
+  thrown in C:\Users\rahel\Desktop\consultant\www.consultant.dev.cc\wp-content\themes\consultantpro\inc\importer\index.php on line 784
+
